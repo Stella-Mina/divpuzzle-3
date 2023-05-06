@@ -31,10 +31,4 @@ input,select,textarea,label,button{
 	display: inline-block;
 	background:none;
 }
-/* float解除用 */
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
