@@ -56,9 +56,3 @@ footer{
   height: 100px;
   background: #ffd000;
 }
-/* float解除用 */
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
