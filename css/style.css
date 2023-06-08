@@ -18,10 +18,12 @@ header{
   height: 40px;
   background: #a9004b;
   float: left;
-}
-.mr10{
   margin-right: 10px;
 }
+.purple:last-child{
+  margin-right: 0;
+}
+
 /* ----------------------------main----------------------- */
 main{
   height: 250px;
@@ -33,11 +35,16 @@ main{
   float: left;
 }
 .brown{
+  position: relative;
   width: 250px;
   height: 100%;
   background: #8c2727;
   float: left;
-  padding: 40px;
+}
+.orange-box{
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 .orange{
   width: 140px;
@@ -45,9 +52,10 @@ main{
   background: #ff863f;
   border: #fff solid 5px;
   box-sizing: content-box;
-}
-.mb10{
   margin-bottom: 10px;
+}
+.orange:last-child{
+  margin-bottom: 0;
 }
 
 /* ----------------------------footer----------------------- */
